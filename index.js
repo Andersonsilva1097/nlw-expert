@@ -69,7 +69,7 @@ const perguntas = [
             "Gênesis",
             "Revelação",
         ],
-        correta: 2
+        correta: 0
     },
     {
         pergunta: "Quem foi o líder escolhido por Deus para libertar os israelitas da escravidão no Egito?",
