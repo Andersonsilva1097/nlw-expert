@@ -1,6 +1,6 @@
 const perguntas = [
     {
-        perguntas: "Qual livro da Bíblia vem primeiro no Antigo Testamento?",
+        pergunta: "Qual livro da Bíblia vem primeiro no Antigo Testamento?",
         respostas: [
             "Gênesis",
             "Êxodo",
@@ -9,7 +9,7 @@ const perguntas = [
         correta: 0
     },
     {
-        perguntas: "Quem é considerado o primeiro homem na Bíblia?",
+        pergunta: "Quem é considerado o primeiro homem na Bíblia?",
         respostas: [
             "Abraão",
             "Moisés",
@@ -18,7 +18,7 @@ const perguntas = [
         correta: 2
     },
     {
-        perguntas: "Quem escreveu a maior parte do Novo Testamento?",
+        pergunta: "Quem escreveu a maior parte do Novo Testamento?",
         respostas: [
             "Pedro",
             "Paulo",
@@ -27,7 +27,7 @@ const perguntas = [
         correta: 1
     },
     {
-        perguntas: "Quantos livros existem no Novo Testamento?",
+        pergunta: "Quantos livros existem no Novo Testamento?",
         respostas: [
             "24",
             "27",
@@ -36,7 +36,7 @@ const perguntas = [
         correta: 1
     },
     {
-        perguntas: "Quem é o profeta que construiu a arca conforme Deus instruiu?",
+        pergunta: "Quem é o profeta que construiu a arca conforme Deus instruiu?",
         respostas: [
             "Noé",
             "Josué",
@@ -45,7 +45,7 @@ const perguntas = [
         correta: 0
     },
     {
-        perguntas: "Qual dos seguintes livros não faz parte do Pentateuco?",
+        pergunta: "Qual dos seguintes livros não faz parte do Pentateuco?",
         respostas: [
             "Êxodo",
             "Levítico",
@@ -54,7 +54,7 @@ const perguntas = [
         correta: 2
     },
     {
-        perguntas: "Qual dos seguintes é considerado o maior rei de Israel?",
+        pergunta: "Qual dos seguintes é considerado o maior rei de Israel?",
         respostas: [
             "Davi",
             "Salomão",
@@ -63,7 +63,7 @@ const perguntas = [
         correta: 0
     },
     {
-        perguntas: "Qual é o último livro da Bíblia?",
+        pergunta: "Qual é o último livro da Bíblia?",
         respostas: [
             "Apocalipse",
             "Gênesis",
@@ -72,7 +72,7 @@ const perguntas = [
         correta: 2
     },
     {
-        perguntas: "Quem foi o líder escolhido por Deus para libertar os israelitas da escravidão no Egito?",
+        pergunta: "Quem foi o líder escolhido por Deus para libertar os israelitas da escravidão no Egito?",
         respostas: [
             "Moisés",
             "Josué",
@@ -81,7 +81,7 @@ const perguntas = [
         correta: 0
     },
     {
-        perguntas: "Qual destes personagens da Bíblia não é um dos doze apóstolos de Jesus?",
+        pergunta: "Qual destes personagens da Bíblia não é um dos doze apóstolos de Jesus?",
         respostas: [
             "Pedro",
             "Mateus",
