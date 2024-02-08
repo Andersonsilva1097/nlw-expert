@@ -1,96 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
+  {
+      pergunta: "Qual livro da Bíblia vem primeiro no Antigo Testamento?",
+      resposta: [
+          "Gênesis",
+          "Êxodo",
+          "Levítico",
+      ],
+      correta: 0
+  },
+  {
+      pergunta: "Quem é considerado o primeiro homem na Bíblia?",
+      resposta: [
+          "Abraão",
+          "Moisés",
+          "Adão",
+      ],
+      correta: 2
+  },
+  {
+      pergunta: "Quem escreveu a maior parte do Novo Testamento?",
+      resposta: [
+          "Pedro",
+          "Paulo",
+          "João",
       ],
       correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
+  },
+  {
+      pergunta: "Quantos livros existem no Novo Testamento?",
+      resposta: [
+          "24",
+          "27",
+          "30",
       ],
       correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
+  },
+  {
+      pergunta: "Quem é o profeta que construiu a arca conforme Deus instruiu?",
+      resposta: [
+          "Noé",
+          "Josué",
+          "Elias",
+      ],
+      correta: 0
+  },
+  {
+      pergunta: "Qual dos seguintes livros não faz parte do Pentateuco?",
+      resposta: [
+          "Êxodo",
+          "Levítico",
+          "Samuel",
       ],
       correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
+  },
+  {
+      pergunta: "Qual dos seguintes é considerado o maior rei de Israel?",
+      resposta: [
+          "Davi",
+          "Salomão",
+          "Saul",
       ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
+      correta: 0
+  },
+  {
+      pergunta: "Qual é o último livro da Bíblia?",
+      resposta: [
+          "Apocalipse",
+          "Gênesis",
+          "Revelação",
       ],
       correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
+  },
+  {
+      pergunta: "Quem foi o líder escolhido por Deus para libertar os israelitas da escravidão no Egito?",
+      resposta: [
+          "Moisés",
+          "Josué",
+          "Jesus",
       ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
+      correta: 0
+  },
+  {
+      pergunta: "Qual destes personagens da Bíblia não é um dos doze apóstolos de Jesus?",
+      resposta: [
+          "Pedro",
+          "Mateus",
+          "Paulo",
       ],
       correta: 2
-    },
-  ];
-  
+  },
+];
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
