@@ -66,8 +66,8 @@ const perguntas = [
         pergunta: "Qual é o último livro da Bíblia?",
         respostas: [
             "Apocalipse",
-            "Gênesis",
-            "Revelação",
+            "ezequiel",
+            "judas",
         ],
         correta: 0
     },
@@ -85,7 +85,7 @@ const perguntas = [
         respostas: [
             "Pedro",
             "Mateus",
-            "Paulo",
+            "zaqueu",
         ],
         correta: 2
     },
