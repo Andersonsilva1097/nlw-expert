@@ -99,7 +99,7 @@ const perguntas = [
     const mostrarTotal = document.querySelector('#acertos span')
     mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
   
-    // loop ou laço de repetição
+    // loop ou laço de repetição utilizando o for
     for(const item of perguntas) {
       const quizItem = template.content.cloneNode(true)
       quizItem.querySelector('h3').textContent = item.pergunta
@@ -117,7 +117,8 @@ const perguntas = [
             corretas.add(item)
           }
   
-          mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+          mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas 
+//Utilizando a variável mostrarTotal é possível fazer a contabilização de pontos obtidos no quiz.
         }
   
   
